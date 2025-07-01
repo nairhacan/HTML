@@ -1,6 +1,3 @@
-Oke Nairha! Ini catatan lengkap dan jelas soal **dasar-dasar HTML** sampai tamat, disusun sebagai catatan belajar yang enak dibaca dan gampang diingat:
-
----
 
 ## 📘 Dasar-Dasar HTML (Catatan Lengkap)
 
@@ -152,6 +149,3 @@ Digunakan untuk menulis catatan di dalam kode, tidak tampil di browser:
 
 ---
 
-Kalau kamu ingin versi PDF-nya juga nanti bisa aku bantu buatin.
-
-Mau lanjut ke **CSS dasar** habis ini?
