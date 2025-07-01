@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokumentasi Elemen HTML Lengkap</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background-color: #f9f9f9; }
+        section { margin-bottom: 40px; }
+        h2 { border-bottom: 2px solid #ccc; padding-bottom: 5px; }
+        pre { background: #eee; padding: 10px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+
+    <h1>Dokumentasi Elemen HTML Lengkap</h1>
+
+    <!-- Heading -->
+    <section>
+        <h2>1. Heading</h2>
+        <!-- Heading digunakan untuk judul dan subjudul -->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </section>
+
+    <!-- Paragraf, garis, dan komentar -->
+    <section>
+        <h2>2. Paragraf dan Garis</h2>
+        <p>Ini adalah paragraf. Paragraf digunakan untuk menulis teks.</p>
+        <hr> <!-- Garis horizontal -->
+        <!-- Ini adalah komentar HTML -->
+    </section>
+
+    <!-- Teks formatting -->
+    <section>
+        <h2>3. Format Teks</h2>
+        <p><b>Tebal</b>, <i>Miring</i>, <u>Garis bawah</u>, <mark>Highlight</mark></p>
+        <p><small>Teks kecil</small> dan <del>Coret</del> dan <ins>Disisipkan</ins></p>
+        <p>X<sup>2</sup> dan H<sub>2</sub>O</p>
+    </section>
+
+    <!-- Gambar -->
+    <section>
+        <h2>4. Gambar</h2>
+        <img src="https://via.placeholder.com/150" alt="Contoh Gambar" width="150">
+        <!-- Gunakan atribut alt untuk teks alternatif jika gambar gagal dimuat -->
+    </section>
+
+    <!-- Link -->
+    <section>
+        <h2>5. Hyperlink</h2>
+        <a href="https://google.com" target="_blank">Buka Google di tab baru</a>
+    </section>
+
+    <!-- Daftar -->
+    <section>
+        <h2>6. List (Daftar)</h2>
+        <h3>Ordered List</h3>
+        <ol>
+            <li>Item Satu</li>
+            <li>Item Dua</li>
+        </ol>
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+        </ul>
+        <h3>Definition List</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+        </dl>
+    </section>
+
+    <!-- Tabel -->
+    <section>
+        <h2>7. Tabel</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Umur</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nairha</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Shiraisi</td>
+                    <td>12</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Form -->
+    <section>
+        <h2>8. Formulir</h2>
+        <form>
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="pesan">Pesan:</label><br>
+            <textarea id="pesan" name="pesan" rows="4" cols="30"></textarea><br><br>
+
+            <label>Jenis Kelamin:</label>
+            <input type="radio" name="gender" value="L"> Laki-laki
+            <input type="radio" name="gender" value="P"> Perempuan<br><br>
+
+            <label>Hobi:</label>
+            <input type="checkbox" name="hobi" value="ngoding"> Ngoding
+            <input type="checkbox" name="hobi" value="makan"> Makan<br><br>
+
+            <label for="kelas">Kelas:</label>
+            <select name="kelas" id="kelas">
+                <option value="7A">7A</option>
+                <option value="8B">8B</option>
+            </select><br><br>
+
+            <input type="submit" value="Kirim">
+        </form>
+    </section>
+
+    <!-- Embed video -->
+    <section>
+        <h2>9. Embed Video</h2>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/QukzmBHQDLw?si=kw3VyTOHq5T6M-UO&amp;start=39" allowfullscreen></iframe>
+    </section>
+
+    <!-- Audio -->
+    <section>
+        <h2>10. Audio</h2>
+        <audio controls>
+            <source src="example.mp3" type="audio/mpeg">
+            Browser tidak mendukung audio.
+        </audio>
+    </section>
+
+    <!-- Button -->
+    <section>
+        <h2>11. Tombol</h2>
+        <button type="button" onclick="alert('Halo dari tombol!')">Klik Aku</button>
+    </section>
+
+    <!-- Div dan Span -->
+    <section>
+        <h2>12. Div & Span</h2>
+        <div style="background: lightblue; padding: 10px;">Ini adalah <b>div</b> (blok)</div>
+        <p>Ini <span style="color: red;">span</span> di dalam paragraf</p>
+    </section>
+
+    <!-- Semantic Elements -->
+    <section>
+        <h2>13. Semantic Elements</h2>
+        <header>Header</header>
+        <nav>Menu Navigasi</nav>
+        <main>Konten Utama</main>
+        <article>Artikel</article>
+        <aside>Sampingan</aside>
+        <footer>Footer</footer>
+    </section>
+
+</body>
+</html>
